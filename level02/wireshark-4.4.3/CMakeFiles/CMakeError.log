@@ -1,0 +1,134 @@
+Performing C SOURCE FILE Test C_fexcess_precision_fast_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36962/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36962.dir/build.make CMakeFiles/cmTC_36962.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36962.dir/src.c.o
+/usr/bin/cc -DC_fexcess_precision_fast_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -fexcess-precision=fast -std=gnu11 -MD -MT CMakeFiles/cmTC_36962.dir/src.c.o -MF CMakeFiles/cmTC_36962.dir/src.c.o.d -o CMakeFiles/cmTC_36962.dir/src.c.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.c
+clang: warning: optimization flag '-fexcess-precision=fast' is not supported [-Wignored-optimization-argument]
+Linking C executable cmTC_36962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36962.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_36962.dir/src.c.o -o cmTC_36962 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wlogical_op_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_590b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_590b1.dir/build.make CMakeFiles/cmTC_590b1.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_590b1.dir/src.c.o
+/usr/bin/cc -DC_Wlogical_op_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wlogical-op -std=gnu11 -MD -MT CMakeFiles/cmTC_590b1.dir/src.c.o -MF CMakeFiles/cmTC_590b1.dir/src.c.o.d -o CMakeFiles/cmTC_590b1.dir/src.c.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_590b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590b1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_590b1.dir/src.c.o -o cmTC_590b1 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wno_error_stringop_overflow__VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3e28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3e28.dir/build.make CMakeFiles/cmTC_d3e28.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3e28.dir/src.c.o
+/usr/bin/cc -DC_Wno_error_stringop_overflow__VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wno-error=stringop-overflow= -std=gnu11 -MD -MT CMakeFiles/cmTC_d3e28.dir/src.c.o -MF CMakeFiles/cmTC_d3e28.dir/src.c.o.d -o CMakeFiles/cmTC_d3e28.dir/src.c.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Werror=stringop-overflow='; did you mean '-Werror=shift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_d3e28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3e28.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d3e28.dir/src.c.o -o cmTC_d3e28 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wno_format_truncation_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03a73/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03a73.dir/build.make CMakeFiles/cmTC_03a73.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03a73.dir/src.c.o
+/usr/bin/cc -DC_Wno_format_truncation_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wno-error=deprecated-declarations -Wframe-larger-than=32768 -Wno-format-truncation -std=gnu11 -MD -MT CMakeFiles/cmTC_03a73.dir/src.c.o -MF CMakeFiles/cmTC_03a73.dir/src.c.o.d -o CMakeFiles/cmTC_03a73.dir/src.c.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_03a73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03a73.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_03a73.dir/src.c.o -o cmTC_03a73 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_fexcess_precision_fast_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fccd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fccd1.dir/build.make CMakeFiles/cmTC_fccd1.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fccd1.dir/src.cxx.o
+/usr/bin/c++ -DCXX_fexcess_precision_fast_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -fexcess-precision=fast -std=c++11 -MD -MT CMakeFiles/cmTC_fccd1.dir/src.cxx.o -MF CMakeFiles/cmTC_fccd1.dir/src.cxx.o.d -o CMakeFiles/cmTC_fccd1.dir/src.cxx.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: optimization flag '-fexcess-precision=fast' is not supported [-Wignored-optimization-argument]
+Linking CXX executable cmTC_fccd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fccd1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_fccd1.dir/src.cxx.o -o cmTC_fccd1 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wlogical_op_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8aab2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8aab2.dir/build.make CMakeFiles/cmTC_8aab2.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8aab2.dir/src.cxx.o
+/usr/bin/c++ -DCXX_Wlogical_op_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wlogical-op -std=c++11 -MD -MT CMakeFiles/cmTC_8aab2.dir/src.cxx.o -MF CMakeFiles/cmTC_8aab2.dir/src.cxx.o.d -o CMakeFiles/cmTC_8aab2.dir/src.cxx.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_8aab2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aab2.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8aab2.dir/src.cxx.o -o cmTC_8aab2 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wno_error_stringop_overflow__VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64eb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64eb3.dir/build.make CMakeFiles/cmTC_64eb3.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64eb3.dir/src.cxx.o
+/usr/bin/c++ -DCXX_Wno_error_stringop_overflow__VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wno-error=stringop-overflow= -std=c++11 -MD -MT CMakeFiles/cmTC_64eb3.dir/src.cxx.o -MF CMakeFiles/cmTC_64eb3.dir/src.cxx.o.d -o CMakeFiles/cmTC_64eb3.dir/src.cxx.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Werror=stringop-overflow='; did you mean '-Werror=shift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_64eb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64eb3.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_64eb3.dir/src.cxx.o -o cmTC_64eb3 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wno_format_truncation_VALID failed with the following output:
+Change Dir: /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89724/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89724.dir/build.make CMakeFiles/cmTC_89724.dir/build
+gmake[1]: Entering directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89724.dir/src.cxx.o
+/usr/bin/c++ -DCXX_Wno_format_truncation_VALID  -fPIE    -Wall -Wextra -Wpointer-arith -Wformat-security -fno-strict-overflow -Wvla -Wattributes -Wpragmas -Wheader-guard -Wcomma -Wshorten-64-to-32 -Wredundant-decls -Wunreachable-code -Wdocumentation -Wno-error=deprecated-declarations -Wframe-larger-than=32768 -Wno-format-truncation -std=c++11 -MD -MT CMakeFiles/cmTC_89724.dir/src.cxx.o -MF CMakeFiles/cmTC_89724.dir/src.cxx.o.d -o CMakeFiles/cmTC_89724.dir/src.cxx.o -c /home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_89724
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89724.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_89724.dir/src.cxx.o -o cmTC_89724 
+gmake[1]: Leaving directory '/home/wmonacho/Documents/Project_42/In_Progress_Project/Snow-Crash/level02/wireshark-4.4.3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
