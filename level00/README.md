@@ -7,7 +7,7 @@ A brief description of the Snow Crash project.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Commands](#commands)
-- [Contributing](#contributing)
+- [Contributing](#contributing)     
 - [License](#license)
 
 ## Installation
